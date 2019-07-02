@@ -172,21 +172,6 @@ namespace Application.Repository
         {
             Dispose(true);
             GC.SuppressFinalize(this);
-        }
-
-        public int Count()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<int> CountAsync()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task FindAllAsync<T>() where T : class
-        {
-            throw new NotImplementedException();
-        }
+        }       
     }
 }
